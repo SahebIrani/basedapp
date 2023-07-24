@@ -156,7 +156,7 @@ export default function Home() {
     }*/
     // If user doesn't have any tokens to claim, show the mint button
     return (
-      <div style={{ display: "flex-col" }}>
+      <div style={{ display: "flex-col", background: "#333" }}>
         <div>
           <input
             type="number"
